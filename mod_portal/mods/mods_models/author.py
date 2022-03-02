@@ -5,7 +5,7 @@ class Author(models.Model):
     email = models.EmailField()
 
     class Meta:
-        ordering = ('name')
+        ordering = ('name',)
 
     def __str__(self):
         return self.name
