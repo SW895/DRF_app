@@ -1,6 +1,6 @@
 from django.db import models
 
-class Mod_Category(models.Model):
+class ModCategory(models.Model):
     name = models.CharField(max_length=250, unique=True)
 
     class Meta:

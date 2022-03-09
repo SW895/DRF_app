@@ -5,7 +5,7 @@ from django.db import models
 
 from mods.mods_models.author import Author
 from mods.mods_models.mod import Mods
-from mods.mods_models.mod_category import Mod_Category
+from mods.mods_models.mod_category import ModCategory
 
 #import mods_models.author
 #import mods_models.mod_category
